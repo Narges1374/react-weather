@@ -1,0 +1,41 @@
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 80px auto;
+}
+.weather-app {
+  margin: 30px auto;
+  padding: 50px;
+  border: 2px solid #9cbce5;
+  border-radius: 5px;
+}
+
+.days {
+  text-align: right;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.emoji {
+  padding: 15px 19px;
+  font-size: 30px;
+}
+
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.forecast-temperature {
+  font-size: 13px;
+}
+.min-temp {
+  opacity: 0.5;
+}
