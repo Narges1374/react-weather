@@ -6,16 +6,16 @@ export default function Temperature() {
   return (
     <div class="col-6">
       <div class="d-flex weather-temperature">
-        <img src="" alt="" id="icon" />
+        <img
+          src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-night.png"
+          alt=""
+        />
         <div class="deg d-flex">
-          <span id="degree" class="degree"></span>
-          <a href="#" id="celsius-link" class="active">
-            21°C
+          <span class="degree"> 21</span>
+          <a href="#" class="active">
+            °C
           </a>
-          |
-          <a href="#" id="fahrenheit-link">
-            °F
-          </a>
+          |<a href="#">°F</a>
         </div>
       </div>
     </div>

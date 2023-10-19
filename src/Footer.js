@@ -11,7 +11,7 @@ export default function Footer() {
         rel="noreferrer"
       >
         Open-source code
-      </a>
+      </a>{" "}
       by Narges Timachi
     </footer>
   );

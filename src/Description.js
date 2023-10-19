@@ -5,17 +5,12 @@ import React from "react";
 export default function Description() {
   return (
     <div>
-      <h1>Tehran 34°</h1>
+      <h1>Tehran</h1>
       <ul>
         <li>
-          Last Updated: <span id="day-hour">21:55</span>
+          Last Updated: <span>21:55</span>
         </li>
-        <li id="description">Sunny</li>
-        <img
-          src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-          alt="Sunny"
-          class="float-left"
-        />
+        <li>Sunny</li>
       </ul>
     </div>
   );
