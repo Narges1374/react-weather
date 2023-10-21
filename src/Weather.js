@@ -63,10 +63,16 @@ export default function Weather() {
                     <img src={weatherData.icon} alt="" />
                     <div class="d-flex">
                       <span class="degree">{weatherData.temperature}</span>
-                      <a href="#" class="active">
+                      <a
+                        href="https://www.shecodes.io/learn/workshops/1446/units/75/lessons/193"
+                        class="active"
+                      >
                         °C
                       </a>
-                      |<a href="#">°F</a>
+                      |
+                      <a href="https://www.shecodes.io/learn/workshops/1446/units/75/lessons/193">
+                        °F
+                      </a>
                     </div>
                   </div>
                 </div>
