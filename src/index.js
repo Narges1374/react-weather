@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./styes.css";
+import "./styles.css";
 import reportWebVitals from './reportWebVitals';
 import Weather from './Weather';
 import Footer from './Footer';

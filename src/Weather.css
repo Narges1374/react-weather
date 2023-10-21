@@ -9,7 +9,39 @@
   border-radius: 5px;
 }
 
-.days {
+.degree {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 15px
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.humidity-wind {
+  margin-top: 15px;
+  text-align: center;
+}
+
+form {
+  text-align: right;
+   margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*.days {
   text-align: right;
   margin-top: 40px;
   margin-left: 10px;
@@ -39,3 +71,4 @@
 .min-temp {
   opacity: 0.5;
 }
+*/
