@@ -1,5 +1,6 @@
 import React from "react";
 import FormatedDate from "./FormatedDate";
+import WeatherTemperature from "./WeatherTemperature";
 import "./Weather.css";
 
 export default function WeatherInfo(props){
@@ -18,19 +19,7 @@ export default function WeatherInfo(props){
           <div className="col-6">
             <div className="d-flex weather-temperature">
               <img src={props.data.icon} alt={props.data.description} />
-              <div className="d-flex">
-                <span className="degree">{props.data.temperature}</span>
-                <a
-                  href="https://www.shecodes.io/learn/workshops/1446/units/75/lessons/193"
-                  className="active"
-                >
-                  °C
-                </a>
-                |
-                <a href="https://www.shecodes.io/learn/workshops/1446/units/75/lessons/193">
-                  °F
-                </a>
-              </div>
+              <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
           <div className="col-6 humidity-wind">
