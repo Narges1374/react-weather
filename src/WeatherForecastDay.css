@@ -1,8 +1,15 @@
 .forecast{
     text-align: center;
+    margin-top: 40px;
 }
+
 
 .min-temperature{
     opacity: 0.6;
     margin-left: 6px;
+}
+
+.icon {
+  background-color: brown;
+  
 }

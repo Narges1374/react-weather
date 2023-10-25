@@ -4,7 +4,7 @@ import "./WeatherForecastDay.css";
 
 export default function WeatherForecastDay(props){
     function day(){
-        let date = new Date(props.data[0].time * 1000);
+        let date = new Date(props.data.time * 1000);
         let day = date.getDay()
 
         let days = [
@@ -22,15 +22,15 @@ export default function WeatherForecastDay(props){
       <div>
         <div className="days">{day()}</div>
         <img
-          src={props.data[0].condition.icon_url}
-          alt={props.data[0].condition.description}
+          src={props.data.condition.icon_url}
+          alt={props.data.condition.description}
         />
         <div className="forecast-temperature">
           <span className="max-temperature">
-            {Math.round(props.data[0].temperature.maximum)}°
+            {Math.round(props.data.temperature.maximum)}°
           </span>
           <span className="min-temperature">
-            {Math.round(props.data[0].temperature.minimum)}°
+            {Math.round(props.data.temperature.minimum)}°
           </span>
         </div>
       </div>
