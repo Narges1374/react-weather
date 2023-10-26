@@ -58,12 +58,12 @@ export default function Weather(props) {
                     />
                   </div>
                   <div class="col-4">
-                    <button type="submit" className="btn btn-primary">
+                    <button type="submit" className="btn btn-primary w-100">
                       Search
                     </button>{" "}
-                    <button type="submit" className="btn btn-success">
+                    {/*<button type="submit" className="btn btn-success">
                       Current
-                    </button>
+                    </button>*/}
                   </div>
                 </div>
               </form>

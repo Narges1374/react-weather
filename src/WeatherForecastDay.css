@@ -3,13 +3,16 @@
     margin-top: 40px;
 }
 
-
 .min-temperature{
     opacity: 0.6;
     margin-left: 6px;
 }
 
-.icon {
-  background-color: brown;
-  
+.days{
+  font-size: 16px;
+  opacity: 0.78;
+}
+
+.forecast-temperature{
+  font-size: 15px;
 }

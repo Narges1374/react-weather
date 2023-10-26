@@ -15,12 +15,7 @@
   margin-top: 15px
 }
 
-.weather-temperature .active {
-  color: black;
-  cursor: default;
-}
-
-.weather-temperature .active:hover {
+a:hover {
   text-decoration: none;
 }
 
