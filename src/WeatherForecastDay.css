@@ -16,3 +16,12 @@
 .forecast-temperature{
   font-size: 15px;
 }
+
+@media (max-width: 670px){
+  .days{
+    margin-top: 16px;
+  }
+  .forecast{
+    margin-top: 10px;
+}
+}

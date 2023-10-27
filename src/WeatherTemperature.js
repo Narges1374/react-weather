@@ -18,7 +18,7 @@ export default function WeatherTemperature(props) {
     return (
       <div className="d-flex">
         <span className="degree">{props.celsius}</span>
-          °C |{" "}
+          °C <span>|</span>{" "}
         <a href="/" onClick={showFahrenheit}>
           °F
         </a>
@@ -33,7 +33,7 @@ export default function WeatherTemperature(props) {
         <a href="/" onClick={showSelsius}>
           °C
         </a>{"  "}
-        | °F
+        <span>|</span> °F
       </div>
     );
   }

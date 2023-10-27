@@ -6,10 +6,6 @@ li {
   list-style: none;
 }
 
-li:first-letter {
-  text-transform: capitalize;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -27,5 +23,5 @@ a {
 
 a:hover {
   color: #17406d;
-  text-decoration: underline;
+  text-decoration: none;
 }

@@ -15,10 +15,6 @@
   margin-top: 15px
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 .humidity-wind {
   margin-top: 15px;
   text-align: center;
@@ -26,5 +22,21 @@ a:hover {
 
 form {
   text-align: right;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 650px){
+  .weather-app{
+    text-align: center;
+  }
+  .btn {
+    font-size: 15px;
+  }
+  .weather-temperature{
+    margin: 9px 45px;
+  }
+  .humidity-wind{
+    margin: 0px 70px;
+  }
+  
 }
