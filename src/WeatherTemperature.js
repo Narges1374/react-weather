@@ -18,8 +18,11 @@ export default function WeatherTemperature(props) {
     return (
       <div className="d-flex">
         <span className="degree">{props.celsius}</span>
-          °C |{" "}
-        <a href="/" onClick={showFahrenheit}>
+        °C |{" "}
+        <a
+          href="https://master--vermillion-quokka-43097c.netlify.app/"
+          onClick={showFahrenheit}
+        >
           °F
         </a>
       </div>
@@ -30,10 +33,13 @@ export default function WeatherTemperature(props) {
     return (
       <div className="d-flex">
         <span className="degree">{fahrenheit}</span>
-        <a href="/" onClick={showSelsius}>
+        <a
+          href="https://master--vermillion-quokka-43097c.netlify.app/"
+          onClick={showSelsius}
+        >
           °C
-        </a>{"  "}
-        | °F
+        </a>
+        {"  "}| °F
       </div>
     );
   }
